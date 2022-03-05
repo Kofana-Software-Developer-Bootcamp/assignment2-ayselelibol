@@ -1,0 +1,20 @@
+.design{
+    margin-top: 120px;
+    height: 300px;
+    
+
+}
+.box{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    background-color: bisque;
+
+}
+.calculate{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: azure;
+    border-radius: 5px;
+}

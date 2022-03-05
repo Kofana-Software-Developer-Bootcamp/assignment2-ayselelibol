@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Makinesi</title>
+    
+    <link rel="stylesheet" type="text/css" href="design.css" />
+   
+    <style>
+        body{
+          height: 100%;
+          margin: 0;
+          background-image: url("https://img.freepik.com/free-photo/palette-calculator-bow-red-background_23-2148182111.jpg?size=626&ext=jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+    </style>
+</head>
+<body> 
+    
+    <div style="text-align: center" class="design" >
+        <h1 style="font-size: 40px;font-family:fantasy">Hesap Makinası Uygulaması</h1>
+        <br>
+        <br>
+        <input type="number" id="value1" class="box">
+
+        <br>
+        <br>
+        <input type="number" id="value2" class="box">
+        <br>
+        <br>
+        <select name="math" id="islem" class="calculate" >
+            <option value="Topla">Topla</option>
+            <option value="Cıkar">Cıkar</option>
+            <option value="Carp">Carp</option>
+            <option value="Bol">Bol</option>
+        </select>
+        <br>
+        <br>
+        <button class="calculate" id="btn">Hesapla</button>
+        <br>
+        <br>
+        <p id="sonuc" style="font-size: 25px;"></p>
+           
+
+    </div>
+<script src="module.js"></script>
+</body>
+</html>
